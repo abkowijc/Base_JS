@@ -59,29 +59,29 @@
       map.add(radarLayer, 0);
 
       
-        const bookmarks = new Bookmarks({
-          view: view,
-          bookmarks: [
-            new Bookmark({
-              name: "Fraser, Colorado",
-              extent: {
-                spatialReference: {
-                  latestWkid: 3857,
-                  wkid: 102100
-                },
-                xmin: -11805813.674184844,
-                ymin: 4837508.427596886,
-                xmax: -11752498.846956003,
-                ymax: 4874083.545631293
-              }
-            })
-          ]
-        });
+       // const bookmarks = new Bookmarks({
+       //   view: view,
+       //   bookmarks: [
+       //     new Bookmark({
+       //       name: "Fraser, Colorado",
+       //       extent: {
+       //         spatialReference: {
+       //           latestWkid: 3857,
+       //           wkid: 102100
+       //         },
+       //         xmin: -11805813.674184844,
+       //         ymin: 4837508.427596886,
+       //         xmax: -11752498.846956003,
+       //       ymax: 4874083.545631293
+       //       }
+       //     })
+       //   ]
+        // });
 
         // Add the widget to the top-right corner of the view
-        view.ui.add(bookmarks, {
-          position: "top-left"
-        });    
+        //view.ui.add(bookmarks, {
+          //position: "top-left"
+        //});    
 
     
     var basemapGallery = new BasemapGallery({
